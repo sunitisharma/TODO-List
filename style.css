@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    display: inline-block;
+}
+
+.listitem {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navcontainer {
+    background-color: #ccc;
+    box-shadow: 2px 4px 4xl rgb(193, 191, 191);
+}
+
+.textcenter{
+    margin-top: 30px;
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+    /* background-color: #ccc; */
+    background-image:linear-gradient(to right,rgb(163, 231, 213),rgba(224, 93, 93, 0.693));
+}
+
+.btn, .DelBtn {
+    margin-top: 20px;
+    /* margin-right: 10px; */
+    box-shadow: 2px 4px 4px #ccc;
+    background-color: rgba(101, 200, 197, 0.921);
+}
+.DelBtn{
+    color:white;
+    background-color: rgba(226, 70, 70, 0.81) !important;
+}
+
+#aboveform {
+    margin:50px;
+    /* width: 60%; */
+    /* margin-left: 400px; */
+    /* display:inline-block; */
+    justify-content: center;
+
+}
+
+.deleteicon:hover {
+    transform: scale(1.2);
+    transition: 0.5;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding: 5px;
+}
+th,
+td {
+    font-size: 12px;
+    border: #ccc 1px solid;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.deleteicon {
+    color: red;
+    font-size: 30px !important;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgb(230, 227, 227);
+}
